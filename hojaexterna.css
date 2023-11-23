@@ -1,0 +1,88 @@
+/* Regla 1: body */
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Regla 2: header */
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+/* Regla 3: h1 */
+h1 {
+    color: #007BFF;
+}
+
+/* Regla 4: article */
+article {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Regla 5: ul y li */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Regla 6: footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Regla 7: a */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* Regla 8: enlaces-relacionados */
+enlaces-relacionados {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Regla 9: img, .modelo-x1, body */
+img {
+    width: 600px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.modelo-x1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    background-color: #c91313;
+    color: #0926b5;
+}
+
+/* Regla 10: caracteristicas */
+caracteristicas {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
